@@ -1,38 +1,124 @@
-.App {
+.header-style{
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.grid-style{
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.img-style{
+  height: 250px; 
+  padding-top: 5em;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.banner-style2{
+  background-color: #000000;
+  opacity: 0.7;
+  width: 75%;
+  /*margin: auto;*/
+  border-radius: 10px;
+  color:#ffffff;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.banner-style{
+  color: #ffffff;
+  text-align: center;
+  font-weight: bolder;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.banner-style hr{
+  border-bottom: #ffffff double 1em;
+  width: 50%;
+  margin: auto;
+
+}
+
+.banner-style2 p{
+  
+  font-size: 3em;
+  padding:1em;
+}
+
+.reseaux{
+
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+
+
+}
+
+.reseaux a{
+  color: #ffffff;
+  padding-bottom: 1em;
+}
+
+.contact-body{
+  margin: auto;
+  background: grey;
+  position: fixed;
+  width: 100%;
+  height: 100%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 2em;
 }
 
-.App-link {
-  color: #61dafb;
+.contact-grid{
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color:black;
+  border: 2px solid red;
+  margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact-grid h2{
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr{
+  border-top: 5px dotted black;
+  width: 50%;
+  margin:auto;
+}
+
+.contact-list i{
+  font-size: 66px;
+  padding-right: 3em;   
+}
+
+/*CV Css*/
+.resume-right-col{
+  background: #27221F;
+  color:white;
+  padding: 2em;
+
+
 }
