@@ -3,6 +3,7 @@ import { Grid, Cell, ProgressBar } from 'react-mdl';
 import Education from './educations';
 import Experience from './experience';
 import Skills from './skills';
+import Loisir from './loisir';
 
 class Cv extends React.Component{
     render(){
@@ -53,7 +54,7 @@ class Cv extends React.Component{
                         <hr style={{borderTop:'3px solid #e22947'}}/>
                         <h2>Expérience</h2>
                         <Experience
-                            startYear={2020}
+                            startYear={"Janvier 2020 - Mars 2020"}
                             jobName="Stage Développeur Java Fullstack - Avista France"
                             jobDescription="- Réalisation d'une interface de mise à jour codé en Java (Bibliothèque graphique - Swing)"
                             jobDescription5="- Réalisation de CDC et de documentations utilisateurs et techniques"
@@ -64,11 +65,28 @@ class Cv extends React.Component{
                         />
 
                         <Experience
-                            startYear={2019}
+                            startYear={"Mai 2019 - Juin 2019"}
                             jobName="Stage Développeur VBA - SNCF"
                             jobDescription="- Mise en place des extractions de logiciels"
                             jobDescription1="- Réalisation de projets (sauvegarde de données dans un tableau dynamique...)"
                             jobDescription2="- Réalisation d'une documentation utilisateur"
+                            
+                        />
+                        <Experience
+                            startYear={"Juillet 2018 - Août 2018"}
+
+                            jobName="Manutentionnaire - Groupe CEMOI"
+                            jobDescription="- Déplacement des plaquettes de chocolats et leur introduction dans la fonderie"
+                            jobDescription1="- Conditionnement : cerclage, étiquetage, filmage"
+                            jobDescription2="- Nettoyage des zones de stockage et de travail"
+                            jobDescription3="- Signalement des marchandises détériorées ou manquantes"
+                        />
+                        <Experience
+                            startYear={"Juillet 2018 - Août 2018"}
+                            jobName="Préparateur de commandes - Groupe CEMOI"
+                            jobDescription="- Préparation des boites à chocolats sur la chaîne de distribution"
+                            jobDescription1="- Emballage et étiquetage des boîtes de chocolats"
+                            jobDescription2="- Filmage des boîtes et déplacement de celles - ci sur des transpalettes."
                             
                         />
                         <hr style={{borderTop:'3px solid #e22947'}}/>
@@ -78,21 +96,44 @@ class Cv extends React.Component{
                             progress={85}
                         />
                         <Skills
-                            skills='Python (Django..)'
+                            skills='Frameworks : Spring (Boot, MVC), Hibernate, JUnit'
+                            progress={85}
+                        />
+                        <Skills
+                            skills='SGBD (mySql, SQL Server 2019, PostgreSQL)'
+                            progress={85}
+                        />
+                        <Skills
+                            skills='Python'
                             progress={85}
                         />
                         <Skills
                             skills='HTML/CSS/JS'
                             progress={85}
                         />
-                        <Skills
-                            skills='Frameworks : Spring (Boot, MVC), Hibernate, JUnit'
-                            progress={85}
-                        />
+                        
                         <Skills
                             skills='Frameworks JS : Angular, React'
                             progress={85}
                         />
+
+                        <Skills
+                            skills='Git / Scrum'
+                            progress={85}
+                        />
+                        <hr style={{borderTop:'3px solid #e22947'}}/>
+                        <h2>Loisirs</h2>
+                        <Loisir
+                            loisirs=' - Musculation'
+
+                        />
+                        <Loisir
+                            loisirs=' - Veille Technologique (Java, React..)'
+                        />
+                        <Loisir
+                            loisirs=' - Bénévolat dans un orphelinat'
+                        />
+
 
                     </Cell>
                 </Grid>
