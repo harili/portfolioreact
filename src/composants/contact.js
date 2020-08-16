@@ -12,7 +12,11 @@ class Contact extends React.Component{
                         alt='avatar'
                         style={{height:'250px'}}></img>
                         <p style={{width:'75%', margin:'auto', paddingTop:'1em'}}>
-                            0..........................................
+                        Ayant obtenu mon BTS SIO option SLAM au Lycée Gustave Eiffel de Bordeaux, 
+                        je souhaite à présent poursuivre mon cursus de manière plus professionnelle. 
+                        De ce fait, je recherche un contrat d'alternance d'une durée de 12 mois dans 
+                        le cadre d'un Bachelor RIL (Responsable en Ingénierie des Logiciels) à l'école 
+                        du CESI de Bordeaux.
                         </p>
                     </Cell>
                     <Cell col={6}> 

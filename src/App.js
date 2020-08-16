@@ -8,9 +8,9 @@ import  {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 function App(){
     return (
       <div className="demo-big-content">
-      <HashRouter basename='/accueil'>
+      <HashRouter basename='/'>
          <Layout>
-             <Header className = "header-style"title="Mon Portfolio" scroll>
+             <Header className = "header-style"title = "Mon Portfolio" scroll>
                  <Navigation>
                    <Link to="accueil">Accueil</Link>
                    <Link to="cv">CV</Link>
